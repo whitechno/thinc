@@ -14,7 +14,7 @@ jobs:
       contents: write
       actions: read
     with:
-      wheel-pattern-name: "thinc-*.whl"
+      wheel-name-pattern: "thinc-*.whl"
       pure-python: false
     secrets:
       gh-token: ${{ secrets.GITHUB_TOKEN }}
